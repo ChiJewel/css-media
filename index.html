@@ -1,0 +1,186 @@
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<style>
+    *,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+#main {
+    width: 500px;
+    margin: 40px auto;
+    font-family: "Segoe UI", sans-serif;
+    padding: 25px 28px;
+    background:white;
+    /* background-position: right; */
+    border-radius: 4px;
+    border: 1px solid #302d2d;
+    animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    margin-left: auto;
+}
+@keyframes popup {
+    0% {
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+h5 {
+    text-align: center;
+    font-size: 15x;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: black;
+}
+.input-parent {
+    display: flex;
+    margin-bottom: 20px;
+}
+/* label {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #a4a4a4;
+} */
+.input-parent input {
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+    background:white;
+    border: none;
+    color: #c7c7c7;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+.input-parent input:hover {
+    background: #404040;
+}
+.input-parent input:focus {
+    box-shadow: 0px 0px 0px 1px #0087ff;
+}
+button {
+    padding: 10px 18px;
+    font-size: 15px;
+    background:green;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: #f4f4f4;
+    transition: all 0.2s ease;
+}
+button:hover {
+    opacity: 0.9;
+}
+button:focus {
+    box-shadow: 0px 0px 0px 3px black;
+}
+body {
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: pink;
+
+}
+
+/* }
+.about-left-content h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2.2rem 0 0.6rem 0;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #B721FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    height: 100vh;
+    color:#fff
+
+} */
+/* 
+.about-left-content{
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+    width:50%;
+}
+.about-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    height: 100vh;
+    color:#fff
+}
+/* .about-left-content > div{
+    background: #12192c;
+    padding: 4rem 4rem 2.5rem 5rem;
+    text-align: left;
+    
+    border-radius: 12px 12px 0 0;
+} */
+
+/* .about-right{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+    color:#fff
+} */ */
+</style>
+
+<!-- <div class = "about-left">
+
+      <P><h2>LEARN TO CODE BY <br><h2>BY WATCHING OTHERS</h2></h2></P>
+      <br><br>
+      <p>
+        <h3>See how experienced Developers solve problems in real-time. <br><h3>
+            Watching scripted tutorials is great, but understanding how <br><h3>
+                how Developers think is invaluable.
+            </h3>
+        </h3></h3>
+      </p>
+    </div> -->
+
+    <div class="about-right">
+
+        <form action="#!" id="main">
+            <div class="header">
+                <h5>Try it for free 7days then $20/mo. thereafter</h5>
+            </div>
+        </form>
+        
+        <form action="#!" id="main">
+            <div class="input-parent">
+              <!-- <label for="Firstname">Firstname</label> -->
+              <input type="text" placeholder="Firstname" id="username">
+            </div>
+        
+            <div class="input-parent">
+                <!-- <label for="Lastname"></label> -->
+                <input type="text" placeholder="Lastname" id="username">
+              </div>
+        
+              <div class="input-parent">
+                <!-- <label for="Email">Username or Email</label> -->
+                <input type="text" placeholder="Email" id="username">
+              </div>
+        
+            <div class="input-parent">
+              <!-- <label for="password">Password</label> -->
+              <input type="password" placeholder="Password" id="password">
+            </div>
+        
+            <button type="submit">Claim your free trial</button>
+          </form>
+    </div>
